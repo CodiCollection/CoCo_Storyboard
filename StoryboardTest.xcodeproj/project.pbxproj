@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CF1F65C927489F2800D67500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F65C827489F2800D67500 /* AppDelegate.swift */; };
 		CF1F65CB27489F2800D67500 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F65CA27489F2800D67500 /* SceneDelegate.swift */; };
-		CF1F65CD27489F2800D67500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F65CC27489F2800D67500 /* ViewController.swift */; };
+		CF1F65CD27489F2800D67500 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F65CC27489F2800D67500 /* LoginViewController.swift */; };
 		CF1F65D027489F2800D67500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1F65CE27489F2800D67500 /* Main.storyboard */; };
 		CF1F65D227489F2900D67500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1F65D127489F2900D67500 /* Assets.xcassets */; };
 		CF1F65D527489F2900D67500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1F65D327489F2900D67500 /* LaunchScreen.storyboard */; };
+		CF28BFAF279206AC0080E586 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28BFAE279206AC0080E586 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF1F65C527489F2800D67500 /* StoryboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1F65C827489F2800D67500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF1F65CA27489F2800D67500 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF1F65CC27489F2800D67500 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF1F65CC27489F2800D67500 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CF1F65CF27489F2800D67500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF1F65D127489F2900D67500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF1F65D427489F2900D67500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF1F65D627489F2900D67500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF28BFAE279206AC0080E586 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				CF1F65C827489F2800D67500 /* AppDelegate.swift */,
 				CF1F65CA27489F2800D67500 /* SceneDelegate.swift */,
-				CF1F65CC27489F2800D67500 /* ViewController.swift */,
+				CF1F65CC27489F2800D67500 /* LoginViewController.swift */,
 				CF1F65CE27489F2800D67500 /* Main.storyboard */,
 				CF1F65D127489F2900D67500 /* Assets.xcassets */,
 				CF1F65D327489F2900D67500 /* LaunchScreen.storyboard */,
 				CF1F65D627489F2900D67500 /* Info.plist */,
+				CF28BFAE279206AC0080E586 /* MainViewController.swift */,
 			);
 			path = StoryboardTest;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF1F65CD27489F2800D67500 /* ViewController.swift in Sources */,
+				CF1F65CD27489F2800D67500 /* LoginViewController.swift in Sources */,
 				CF1F65C927489F2800D67500 /* AppDelegate.swift in Sources */,
 				CF1F65CB27489F2800D67500 /* SceneDelegate.swift in Sources */,
+				CF28BFAF279206AC0080E586 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
