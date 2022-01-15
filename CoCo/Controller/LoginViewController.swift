@@ -14,7 +14,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        idField.becomeFirstResponder()
         // Do any additional setup after loading the view.
     }
     
@@ -26,7 +26,6 @@ class LoginViewController: UIViewController {
             let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             sceneDelegate?.changeRootViewController(storyboard.instantiateViewController(withIdentifier: "MainViewController") as! UITabBarController)
-//            performSegue(withIdentifier: "AfterLoginSegue", sender: nil)
         } else if (!isValidID(id: id)) {
             failedAlert(msg: "아이디를")
         } else {
@@ -48,5 +47,15 @@ class LoginViewController: UIViewController {
         alertController.addAction(UIAlertAction(title: "확인", style: .default, handler: nil))
         self.present(alertController, animated: true, completion: nil)
     }
+    
+    
+    @IBAction func findIdPassword(_ sender: Any) {
+        let alertController = UIAlertController(title: nil, message: "구현 예정", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title:"확인", style: .default, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    @IBAction func dissmissKeyboard(_ sender: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
 }
-

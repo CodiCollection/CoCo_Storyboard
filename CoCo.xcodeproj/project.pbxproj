@@ -62,16 +62,15 @@
 		CF1F65C727489F2800D67500 /* CoCo */ = {
 			isa = PBXGroup;
 			children = (
+				CFCE7E33279312AB00BC7DAB /* Model */,
+				CFCE7E322793129800BC7DAB /* Controller */,
 				CFCE7E2F2792F89F00BC7DAB /* Manager */,
 				CF1F65C827489F2800D67500 /* AppDelegate.swift */,
 				CF1F65CA27489F2800D67500 /* SceneDelegate.swift */,
-				CF1F65CC27489F2800D67500 /* LoginViewController.swift */,
 				CF1F65CE27489F2800D67500 /* Main.storyboard */,
-				CF1F65D127489F2900D67500 /* Assets.xcassets */,
 				CF1F65D327489F2900D67500 /* LaunchScreen.storyboard */,
+				CF1F65D127489F2900D67500 /* Assets.xcassets */,
 				CF1F65D627489F2900D67500 /* Info.plist */,
-				CF28BFAE279206AC0080E586 /* FavoriteViewController.swift */,
-				CFE9AFD427925B2C009918A1 /* HeaderModel.swift */,
 			);
 			path = CoCo;
 			sourceTree = "<group>";
@@ -82,6 +81,23 @@
 				CFCE7E302792F8BB00BC7DAB /* AccountManager.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		CFCE7E322793129800BC7DAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF1F65CC27489F2800D67500 /* LoginViewController.swift */,
+				CF28BFAE279206AC0080E586 /* FavoriteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CFCE7E33279312AB00BC7DAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFE9AFD427925B2C009918A1 /* HeaderModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
