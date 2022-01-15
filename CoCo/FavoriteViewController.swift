@@ -10,7 +10,7 @@ import UIKit
 class FavoriteViewController: UIViewController {
 
     override func viewDidLoad() {
-        self.navigationController?.navigationBar.isHidden = true
+//        self.navigationController?.navigationBar.isHidden = true
         let header = HeaderModel(title: "Favorite", view: view)
         header.setupHeader()
         super.viewDidLoad()

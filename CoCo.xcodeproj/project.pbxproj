@@ -14,6 +14,7 @@
 		CF1F65D227489F2900D67500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1F65D127489F2900D67500 /* Assets.xcassets */; };
 		CF1F65D527489F2900D67500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1F65D327489F2900D67500 /* LaunchScreen.storyboard */; };
 		CF28BFAF279206AC0080E586 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28BFAE279206AC0080E586 /* FavoriteViewController.swift */; };
+		CFCE7E312792F8BB00BC7DAB /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCE7E302792F8BB00BC7DAB /* AccountManager.swift */; };
 		CFE9AFD527925B2C009918A1 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9AFD427925B2C009918A1 /* HeaderModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		CF1F65D427489F2900D67500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF1F65D627489F2900D67500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF28BFAE279206AC0080E586 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		CFCE7E302792F8BB00BC7DAB /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
 		CFE9AFD427925B2C009918A1 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 		CF1F65C727489F2800D67500 /* CoCo */ = {
 			isa = PBXGroup;
 			children = (
+				CFCE7E2F2792F89F00BC7DAB /* Manager */,
 				CF1F65C827489F2800D67500 /* AppDelegate.swift */,
 				CF1F65CA27489F2800D67500 /* SceneDelegate.swift */,
 				CF1F65CC27489F2800D67500 /* LoginViewController.swift */,
@@ -71,6 +74,14 @@
 				CFE9AFD427925B2C009918A1 /* HeaderModel.swift */,
 			);
 			path = CoCo;
+			sourceTree = "<group>";
+		};
+		CFCE7E2F2792F89F00BC7DAB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CFCE7E302792F8BB00BC7DAB /* AccountManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				CF1F65CB27489F2800D67500 /* SceneDelegate.swift in Sources */,
 				CF28BFAF279206AC0080E586 /* FavoriteViewController.swift in Sources */,
 				CFE9AFD527925B2C009918A1 /* HeaderModel.swift in Sources */,
+				CFCE7E312792F8BB00BC7DAB /* AccountManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

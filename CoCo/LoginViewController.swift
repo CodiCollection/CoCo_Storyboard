@@ -15,7 +15,6 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationController?.title = "Waffle Studio"
         // Do any additional setup after loading the view.
     }
     
@@ -24,10 +23,10 @@ class LoginViewController: UIViewController {
         guard let pw = passwordField.text else { return }
         
         if (isValidID(id: id) && isValidPassword(password: pw)) {
-            guard let mainViewController = self.storyboard?.instantiateViewController(withIdentifier: "MainViewController") else { return }
-            
-            navigationController?.setViewControllers([mainViewController], animated: true)
-            self.dismiss(animated:true)
+            let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            sceneDelegate?.changeRootViewController(storyboard.instantiateViewController(withIdentifier: "MainViewController") as! UITabBarController)
+//            performSegue(withIdentifier: "AfterLoginSegue", sender: nil)
         } else if (!isValidID(id: id)) {
             failedAlert(msg: "아이디를")
         } else {
