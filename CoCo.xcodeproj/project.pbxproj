@@ -13,11 +13,12 @@
 		CF1F65D027489F2800D67500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1F65CE27489F2800D67500 /* Main.storyboard */; };
 		CF1F65D227489F2900D67500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1F65D127489F2900D67500 /* Assets.xcassets */; };
 		CF1F65D527489F2900D67500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1F65D327489F2900D67500 /* LaunchScreen.storyboard */; };
-		CF28BFAF279206AC0080E586 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28BFAE279206AC0080E586 /* MainViewController.swift */; };
+		CF28BFAF279206AC0080E586 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28BFAE279206AC0080E586 /* FavoriteViewController.swift */; };
+		CFE9AFD527925B2C009918A1 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9AFD427925B2C009918A1 /* HeaderModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF1F65C527489F2800D67500 /* StoryboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1F65C527489F2800D67500 /* CoCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1F65C827489F2800D67500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF1F65CA27489F2800D67500 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CF1F65CC27489F2800D67500 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,8 @@
 		CF1F65D127489F2900D67500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF1F65D427489F2900D67500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF1F65D627489F2900D67500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF28BFAE279206AC0080E586 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CF28BFAE279206AC0080E586 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		CFE9AFD427925B2C009918A1 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,7 @@
 		CF1F65BC27489F2800D67500 = {
 			isa = PBXGroup;
 			children = (
-				CF1F65C727489F2800D67500 /* StoryboardTest */,
+				CF1F65C727489F2800D67500 /* CoCo */,
 				CF1F65C627489F2800D67500 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +52,12 @@
 		CF1F65C627489F2800D67500 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF1F65C527489F2800D67500 /* StoryboardTest.app */,
+				CF1F65C527489F2800D67500 /* CoCo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF1F65C727489F2800D67500 /* StoryboardTest */ = {
+		CF1F65C727489F2800D67500 /* CoCo */ = {
 			isa = PBXGroup;
 			children = (
 				CF1F65C827489F2800D67500 /* AppDelegate.swift */,
@@ -65,17 +67,18 @@
 				CF1F65D127489F2900D67500 /* Assets.xcassets */,
 				CF1F65D327489F2900D67500 /* LaunchScreen.storyboard */,
 				CF1F65D627489F2900D67500 /* Info.plist */,
-				CF28BFAE279206AC0080E586 /* MainViewController.swift */,
+				CF28BFAE279206AC0080E586 /* FavoriteViewController.swift */,
+				CFE9AFD427925B2C009918A1 /* HeaderModel.swift */,
 			);
-			path = StoryboardTest;
+			path = CoCo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF1F65C427489F2800D67500 /* StoryboardTest */ = {
+		CF1F65C427489F2800D67500 /* CoCo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF1F65D927489F2900D67500 /* Build configuration list for PBXNativeTarget "StoryboardTest" */;
+			buildConfigurationList = CF1F65D927489F2900D67500 /* Build configuration list for PBXNativeTarget "CoCo" */;
 			buildPhases = (
 				CF1F65C127489F2800D67500 /* Sources */,
 				CF1F65C227489F2800D67500 /* Frameworks */,
@@ -85,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = StoryboardTest;
+			name = CoCo;
 			productName = StoryboardTest;
-			productReference = CF1F65C527489F2800D67500 /* StoryboardTest.app */;
+			productReference = CF1F65C527489F2800D67500 /* CoCo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CF1F65C027489F2800D67500 /* Build configuration list for PBXProject "StoryboardTest" */;
+			buildConfigurationList = CF1F65C027489F2800D67500 /* Build configuration list for PBXProject "CoCo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF1F65C427489F2800D67500 /* StoryboardTest */,
+				CF1F65C427489F2800D67500 /* CoCo */,
 			);
 		};
 /* End PBXProject section */
@@ -144,7 +147,8 @@
 				CF1F65CD27489F2800D67500 /* LoginViewController.swift in Sources */,
 				CF1F65C927489F2800D67500 /* AppDelegate.swift in Sources */,
 				CF1F65CB27489F2800D67500 /* SceneDelegate.swift in Sources */,
-				CF28BFAF279206AC0080E586 /* MainViewController.swift in Sources */,
+				CF28BFAF279206AC0080E586 /* FavoriteViewController.swift in Sources */,
+				CFE9AFD527925B2C009918A1 /* HeaderModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M9336G3XQZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StoryboardTest/Info.plist;
+				INFOPLIST_FILE = CoCo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CoCo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.minkyulee.StoryboardTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minkyulee.CoCo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,7 +328,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M9336G3XQZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StoryboardTest/Info.plist;
+				INFOPLIST_FILE = CoCo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CoCo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.minkyulee.StoryboardTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minkyulee.CoCo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF1F65C027489F2800D67500 /* Build configuration list for PBXProject "StoryboardTest" */ = {
+		CF1F65C027489F2800D67500 /* Build configuration list for PBXProject "CoCo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF1F65D727489F2900D67500 /* Debug */,
@@ -354,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF1F65D927489F2900D67500 /* Build configuration list for PBXNativeTarget "StoryboardTest" */ = {
+		CF1F65D927489F2900D67500 /* Build configuration list for PBXNativeTarget "CoCo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF1F65DA27489F2900D67500 /* Debug */,

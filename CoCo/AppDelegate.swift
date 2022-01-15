@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  StoryboardTest
+//  CoCo
 //
 //  Created by Min-Kyu Lee on 2021/11/20.
 //
