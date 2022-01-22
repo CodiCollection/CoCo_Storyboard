@@ -10,11 +10,10 @@ import UIKit
 struct HeaderModel {
     var title: String
     var view: UIView
-
+    let topLine: UIView = UIView()
+    let headerLabel: UILabel = UILabel()
+    
     public func setupHeader() {
-        
-        let topLine: UIView = UIView()
-        let headerLabel: UILabel = UILabel()
         view.addSubview(headerLabel)
         headerLabel.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(topLine)

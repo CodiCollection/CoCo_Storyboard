@@ -8,13 +8,19 @@
 import UIKit
 
 class FavoriteViewController: UIViewController {
-
+    @IBOutlet weak var hatView: UIView!
+    @IBOutlet weak var topView: UIView!
+    @IBOutlet weak var bottomView: UIView!
+    @IBOutlet weak var footwearView: UIView!
+    
     override func viewDidLoad() {
-//        self.navigationController?.navigationBar.isHidden = true
         let header = HeaderModel(title: "Favorite", view: view)
         header.setupHeader()
+        hatView.topAnchor.constraint(equalTo: header.topLine.bottomAnchor, constant: 10).isActive = true
+//        hatView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor, constant: 20).isActive = true
+//        hatView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.49).isActive = true
+//        hatView.heightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.heightAnchor, multiplier: 0.2).isActive = true
         super.viewDidLoad()
-
         
         // Do any additional setup after loading the view.
     }

@@ -24,8 +24,8 @@ class LoginViewController: UIViewController {
         
         if (isValidID(id: id) && isValidPassword(password: pw)) {
             let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            sceneDelegate?.changeRootViewController(storyboard.instantiateViewController(withIdentifier: "MainViewController") as! UITabBarController)
+//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            sceneDelegate?.changeRootViewController(storyboard?.instantiateViewController(withIdentifier: "MainViewController") as! UITabBarController)
         } else if (!isValidID(id: id)) {
             failedAlert(msg: "아이디를")
         } else {
