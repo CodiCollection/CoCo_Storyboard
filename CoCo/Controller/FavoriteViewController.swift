@@ -14,12 +14,16 @@ class FavoriteViewController: UIViewController {
     @IBOutlet weak var shoesView: FavoriteBox!
     @IBOutlet weak var jacketView: FavoriteBox!
     @IBOutlet weak var socksView: FavoriteBox!
+    let addButton: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Set header
-        let header = Header(title: "Favorite", view: view)
-        header.setupHeader()
+        view.addSubview(addButton)
+        addButtonConstraints()
     }
     
 
@@ -33,4 +37,9 @@ class FavoriteViewController: UIViewController {
     }
     */
 
+    func addButtonConstraints() {
+        NSLayoutConstraint.activate([
+//            addButton.widthAnchor
+        ])
+    }
 }
