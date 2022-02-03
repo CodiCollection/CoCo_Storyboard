@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct HeaderModel {
+struct Header {
     var title: String
     var view: UIView
     let topLine: UIView = UIView()

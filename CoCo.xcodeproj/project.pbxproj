@@ -16,8 +16,10 @@
 		CF1F65D527489F2900D67500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1F65D327489F2900D67500 /* LaunchScreen.storyboard */; };
 		CF28BFAF279206AC0080E586 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28BFAE279206AC0080E586 /* FavoriteViewController.swift */; };
 		CF7CAE6127933F4800BA7FCB /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7CAE6027933F4800BA7FCB /* MainTabBarViewController.swift */; };
+		CF846F6027AAD247001586BF /* DottedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF846F5F27AAD247001586BF /* DottedBorder.swift */; };
+		CF846F6227AAD802001586BF /* FavoriteBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF846F6127AAD802001586BF /* FavoriteBox.swift */; };
 		CFCE7E312792F8BB00BC7DAB /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCE7E302792F8BB00BC7DAB /* AccountManager.swift */; };
-		CFE9AFD527925B2C009918A1 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9AFD427925B2C009918A1 /* HeaderModel.swift */; };
+		CFE9AFD527925B2C009918A1 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9AFD427925B2C009918A1 /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +34,10 @@
 		CF1F65D627489F2900D67500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF28BFAE279206AC0080E586 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		CF7CAE6027933F4800BA7FCB /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		CF846F5F27AAD247001586BF /* DottedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedBorder.swift; sourceTree = "<group>"; };
+		CF846F6127AAD802001586BF /* FavoriteBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBox.swift; sourceTree = "<group>"; };
 		CFCE7E302792F8BB00BC7DAB /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
-		CFE9AFD427925B2C009918A1 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		CFE9AFD427925B2C009918A1 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		CF1F65C727489F2800D67500 /* CoCo */ = {
 			isa = PBXGroup;
 			children = (
+				CF846F5E27AAD005001586BF /* Util */,
 				CFCE7E33279312AB00BC7DAB /* Model */,
 				CFCE7E322793129800BC7DAB /* Controller */,
 				CFCE7E2F2792F89F00BC7DAB /* Manager */,
@@ -77,6 +82,16 @@
 				CF1F65D627489F2900D67500 /* Info.plist */,
 			);
 			path = CoCo;
+			sourceTree = "<group>";
+		};
+		CF846F5E27AAD005001586BF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CFE9AFD427925B2C009918A1 /* Header.swift */,
+				CF846F5F27AAD247001586BF /* DottedBorder.swift */,
+				CF846F6127AAD802001586BF /* FavoriteBox.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		CFCE7E2F2792F89F00BC7DAB /* Manager */ = {
@@ -101,7 +116,6 @@
 		CFCE7E33279312AB00BC7DAB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CFE9AFD427925B2C009918A1 /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,9 +194,11 @@
 				CF1F65CD27489F2800D67500 /* LoginViewController.swift in Sources */,
 				CF1F65C927489F2800D67500 /* AppDelegate.swift in Sources */,
 				CF1F65CB27489F2800D67500 /* SceneDelegate.swift in Sources */,
+				CF846F6227AAD802001586BF /* FavoriteBox.swift in Sources */,
+				CF846F6027AAD247001586BF /* DottedBorder.swift in Sources */,
 				CF7CAE6127933F4800BA7FCB /* MainTabBarViewController.swift in Sources */,
 				CF28BFAF279206AC0080E586 /* FavoriteViewController.swift in Sources */,
-				CFE9AFD527925B2C009918A1 /* HeaderModel.swift in Sources */,
+				CFE9AFD527925B2C009918A1 /* Header.swift in Sources */,
 				CF1DEA74279B0BF000DD09FB /* ClosetViewController.swift in Sources */,
 				CFCE7E312792F8BB00BC7DAB /* AccountManager.swift in Sources */,
 			);
